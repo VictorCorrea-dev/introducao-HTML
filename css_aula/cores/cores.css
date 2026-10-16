@@ -1,0 +1,19 @@
+.cor1{
+    /* ------ Nome da cor ------ */
+    color: aqua;
+}
+
+.cor2{
+    /* ------ Hexadecimal da cor ------ */
+    color: #ff0000;
+}
+
+.cor3{
+    /* ------ RGB da cor ------ */
+    color: rgb(red green blue / alpha)
+}
+
+.cor4{
+    /* ------ RGBA da cor ------ */
+    color: RGBA(rgb(59, 20, 20) rgb(20, 147, 197) rgb(151, 151, 255) / alpha);
+}

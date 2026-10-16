@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!------- FORMULÁRIOS EM HTML ------->
+    <form> <!--Estrutura do Formulário-->
+
+        <fieldset>
+            <legend>Informações de Contato</legend>
+
+        
+            <label for="nome"> Nome: </label> <!-- Indicação de Input -->
+            <input type="text" id="nome" name="nome" placeholder="Informe seu nome" > <!-- Campo de Entrada -->
+            
+            <br>
+
+            <label for="E-mail">E-mail:</label> 
+            <input type="email" id ="email" name="email" placeholder="Informe seu e-mail"></input>
+
+            </br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Informe sua senha" required></input>
+
+            <br>
+
+            <label for="data"> Informe sua data de nascimento: </label>
+            <input type="date" name="data" id="data" required>
+            
+            </br>
+           
+        </fieldset>
+    
+
+          <fieldset>
+            <legend>Preferências: </legend>
+
+            <p>Informe sua cor preferida: </p>
+            <label><input type="radio" name="cor">Azul</label>
+            <label><input type="radio" name="cor">Vermelho</label>
+ 
+            <p>Informe quais frutas voce quer:</p>
+            <label><input type="checkbox" name="frutas">Maçã</label>
+            <label><input type="checkbox" name="frutas">Uva</label>
+
+            <label for="idioma">Idioma:</label>
+            <select name="idioma" id="idioma">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="pt">Português</option>  
+                <option value="en">Inglês</option>  
+            </select>
+
+            <label for="sugestoes">Sugestões</label>
+            <textarea name="sugestoes" id="sugestoes"></textarea>
+
+        </fieldset>
+            
+
+            <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

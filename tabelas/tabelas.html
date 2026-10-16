@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <!---- TABELAS EM HTML ---->
+   <h1>Trabalhando com Tabelas</h1>
+    <table border="1">
+        
+        
+         <thead> <!-- Cabeçalho -->
+            <tr>  <!-- Linha da tabela -->
+                <th>Nome</th> <!-- Coluna -->
+                <th>Idade</th> <!-- Coluna -->
+                <th>Cpf</th> <!-- Coluna -->
+                <th>E-mail</th> <!-- Coluna -->
+            </tr>
+         </thead>
+
+
+         <tbody> <!-- Corpo -->
+            <tr> <!-- Linha da tabela -->
+                <td>Matheus</td> <!-- Item da tabela -->
+                <td>27</td> <!-- Item da tabela -->
+                <td>123.456.789-10</td> <!-- Item da tabela -->
+                <td>matheus@gmail.com</td> <!-- Item da tabela -->
+            </tr>
+
+            <!-- tr>td*4 -->
+            <tr>
+                <td>Lucas</td>
+                <td>30</td>
+                <td>098.765.432-18</td>
+                <td>lucas@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Nicole</td>
+                <td>22</td>
+                <td>321.234.567-34</td>
+                <td>nicole@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Flávio</td>
+                <td>50</td>
+                <td>567.870.461-12</td>
+                <td>flavio@gmail.com</td>
+            </tr>
+         </tbody>
+
+    </table>
+    
+    <!------- MESCLANDO COLUNAS ------->
+    <h2>Trabalhando com Filmes</h2>   
+    <table border="1">
+
+     <thead>
+        <tr>
+            <th colspan="4"> Lista de filmes </th>
+        </tr>
+        <tr>
+            <th>Gênero</th>
+            <th>Ano</th>
+            <th>Título</th>
+            <th>Nota</th>
+        </tr>
+
+     </thead>
+
+     <tbody>
+        <tr>
+            <td rowspan="2">Ação</td>
+            <td>2019</td>
+            <td>Vingadores Ultimato</td>
+            <td>9.6</td>
+        </tr>
+        <tr>
+            <td>2026</td>
+            <td>John Wick</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Comédia</td>
+            <td>2005</td>
+            <td>American Pie</td>
+            <td>9.2</td>
+        </tr>
+        <tr>
+            <td>2007</td>
+            <td>Super Bad</td>
+            <td>7.6</td>
+        </tr>
+     </tbody>
+    </table>
+
+</body>
+</html>
+
